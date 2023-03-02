@@ -7,6 +7,6 @@ void main() {
 
     _colorService.changeColorRandomly();
 
-    expect(_colorService.getRandomColor,isNotNull);
+    expect(_colorService.getRandomColor, isNotNull);
   });
 }
