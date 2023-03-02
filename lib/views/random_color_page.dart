@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 /// This page is used to display a box which takes all the screen,
 /// and change its color randomly based on a user click.
 class RandomColorPage extends StatefulWidget {
-  /// default constructor for the current page
+  /// default constructor for the random color page
   const RandomColorPage({super.key});
 
   @override
