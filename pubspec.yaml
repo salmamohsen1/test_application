@@ -15,6 +15,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  solid_lints: ^0.0.14
+
 
 flutter:
 
