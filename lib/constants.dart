@@ -1,6 +1,6 @@
 ///This class is used for constants that are used across the application domain.
 ///You should define a constants per domain.
-class Constants{
+class Constants {
   ///this field defining a font size for header titles.
   static const double headerFontSize = 24.0;
 

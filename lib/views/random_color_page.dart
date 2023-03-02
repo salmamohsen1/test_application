@@ -13,9 +13,7 @@ class RandomColorPage extends StatefulWidget {
 }
 
 class _RandomColorPageState extends State<RandomColorPage> {
-
   final ColorService _colorService = ColorService();
-
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +21,7 @@ class _RandomColorPageState extends State<RandomColorPage> {
       onTap: _changeColor,
       child: ColoredBox(
         color: _colorService.getRandomColor,
-        child:  Center(
+        child: Center(
           child: Text(
             'Hey There',
             style: TextStyle(
